@@ -14,18 +14,21 @@
 </head>
 
 <body>
-    <div class="display-1 text-center card p-2">
-        Weather App
+  
+
+    <div class="display-1 navbar text-center d-flex justify-content-center align-self-center">
+        <span>Weather App</span>
+        
     </div>
 
     <div class="d-flex justify-content-center align-self-center">
 
-        <div class="card my-5  weather-animation" style="width: 25rem;">
+        <div class=" my-5  weather-animation" >
             <div class="card-body ">
 
                 <div class=" d-flex  justify-content-center align-self-center img-class">
-                    {{!-- weather image here  --}}
-                    
+                    {{!-- weather image here --}}
+
                 </div>
 
                 <div class="card-title cityName my-4 display-4" style="margin-bottom: 30px;"> </div>
@@ -33,15 +36,21 @@
 
 
             </div>
-            <div class="form-floating d-flex justify-content-center align-self-center " style="width: 95%;">
-                <textarea class="form-control cityText" id="floatingTextarea" value="Kanpur"></textarea>
-                <label for="floatingTextarea">Enter the City Name</label>
+            <div class="d-flex justify-content-center align-self-center " style="width: 95%;">
+                <input class="cityText form-control " id="floatingTextarea" placeholder="enter the city name "
+                    value="Kanpur"></input>
+
+
+                <button class="getInfo_class ">Enter</button>
+
 
             </div>
-            <button class="getInfo_class ">Enter</button>
+
+          
+
 
         </div>
-
+  
     </div>
 
 
@@ -59,7 +68,11 @@
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-
+<br><div class="text-center" style="font-size:20px"> developed by Manglesh 
+   <a href="https://github.com/Mangleshkumar665" style="all: unset;"><i class="fa-brands fa-github fa-fade fa-2xl"></i></a> 
+   <a href="https://www.linkedin.com/in/manglesh-kumar-217828256/" style="all: unset;">   <i class="fa-brands fa-linkedin fa-fade fa-2xl"></i></a> 
+    
+   </div>
 
 
 
